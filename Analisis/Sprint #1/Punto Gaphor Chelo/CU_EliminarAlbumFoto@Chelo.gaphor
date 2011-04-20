@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="0.15.0">
+<Package id="65bc1f72-6942-11e0-a6ea-70f1a1f231c6">
+<name>
+<val><![CDATA[New model]]></val>
+</name>
+<ownedClassifier>
+<reflist>
+<ref refid="676b8466-6942-11e0-a6ea-70f1a1f231c6"/>
+<ref refid="72ee83ba-6942-11e0-a6ea-70f1a1f231c6"/>
+</reflist>
+</ownedClassifier>
+<ownedDiagram>
+<reflist>
+<ref refid="65bc3c64-6942-11e0-a6ea-70f1a1f231c6"/>
+</reflist>
+</ownedDiagram>
+</Package>
+<Diagram id="65bc3c64-6942-11e0-a6ea-70f1a1f231c6">
+<name>
+<val><![CDATA[main]]></val>
+</name>
+<package>
+<ref refid="65bc1f72-6942-11e0-a6ea-70f1a1f231c6"/>
+</package>
+<canvas>
+<item type="ActorItem" id="676bc6a6-6942-11e0-a6ea-70f1a1f231c6">
+<drawing-style>
+<val>3</val>
+</drawing-style>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 90.0, 116.0)</val>
+</matrix>
+<width>
+<val>38.0</val>
+</width>
+<height>
+<val>60.0</val>
+</height>
+<subject>
+<ref refid="676b8466-6942-11e0-a6ea-70f1a1f231c6"/>
+</subject>
+<show_stereotypes_attrs>
+<val>0</val>
+</show_stereotypes_attrs>
+</item>
+<item type="Box" id="70f5368a-6942-11e0-a6ea-70f1a1f231c6">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 203.0, 53.0)</val>
+</matrix>
+<width>
+<val>372.0</val>
+</width>
+<height>
+<val>220.0</val>
+</height>
+</item>
+<item type="UseCaseItem" id="72eee404-6942-11e0-a6ea-70f1a1f231c6">
+<drawing-style>
+<val>-1</val>
+</drawing-style>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 318.0, 136.0)</val>
+</matrix>
+<width>
+<val>132.0</val>
+</width>
+<height>
+<val>30.0</val>
+</height>
+<subject>
+<ref refid="72ee83ba-6942-11e0-a6ea-70f1a1f231c6"/>
+</subject>
+<show_stereotypes_attrs>
+<val>0</val>
+</show_stereotypes_attrs>
+</item>
+<item type="AssociationItem" id="7acf5668-6942-11e0-a6ea-70f1a1f231c6">
+<show_stereotypes_attrs>
+<val>0</val>
+</show_stereotypes_attrs>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 108.0, 149.0)</val>
+</matrix>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<horizontal>
+<val>0</val>
+</horizontal>
+<points>
+<val>[(0.0, 0.0), (210.0, 0.0)]</val>
+</points>
+<tail-connection>
+<ref refid="72eee404-6942-11e0-a6ea-70f1a1f231c6"/>
+</tail-connection>
+<show-direction>
+<val>0</val>
+</show-direction>
+</item>
+</canvas>
+</Diagram>
+<Actor id="676b8466-6942-11e0-a6ea-70f1a1f231c6">
+<name>
+<val><![CDATA[Usuario]]></val>
+</name>
+<package>
+<ref refid="65bc1f72-6942-11e0-a6ea-70f1a1f231c6"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="676bc6a6-6942-11e0-a6ea-70f1a1f231c6"/>
+</reflist>
+</presentation>
+</Actor>
+<UseCase id="72ee83ba-6942-11e0-a6ea-70f1a1f231c6">
+<name>
+<val><![CDATA[Eliminar Album Foto]]></val>
+</name>
+<package>
+<ref refid="65bc1f72-6942-11e0-a6ea-70f1a1f231c6"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="72eee404-6942-11e0-a6ea-70f1a1f231c6"/>
+</reflist>
+</presentation>
+</UseCase>
+</gaphor>
