@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="0.17.0.dev-20110417">
+<gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="0.15.0">
 <Package id="5eef4fd0-6842-11e0-ac7c-485b39cab3fc">
 <name>
-<val>CU_Varios</val>
+<val><![CDATA[CU_Varios]]></val>
 </name>
 <ownedClassifier>
 <reflist>
@@ -52,7 +52,7 @@
 </Package>
 <Diagram id="5eef741a-6842-11e0-ac7c-485b39cab3fc">
 <name>
-<val>buscar_usuario</val>
+<val><![CDATA[buscar_usuario]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -184,7 +184,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 189.0, 518.0)</val>
 </matrix>
 <width>
-<val>116.0</val>
+<val>118.0</val>
 </width>
 <height>
 <val>42.0</val>
@@ -200,7 +200,7 @@
 </Diagram>
 <Actor id="e00bf5a2-6845-11e0-ac7c-485b39cab3fc">
 <name>
-<val>Usuario</val>
+<val><![CDATA[Usuario]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -225,7 +225,7 @@
 </reflist>
 </include>
 <name>
-<val>Buscar Usuario</val>
+<val><![CDATA[Buscar Usuario]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -288,7 +288,7 @@
 </Property>
 <UseCase id="3fcb451e-6847-11e0-ac7c-485b39cab3fc">
 <name>
-<val>Chequear conexión</val>
+<val><![CDATA[Chequear conexión]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -316,7 +316,7 @@
 </Include>
 <Diagram id="f5f1b7c8-684d-11e0-ac7c-485b39cab3fc">
 <name>
-<val>crear_album</val>
+<val><![CDATA[crear_album]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -468,7 +468,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 179.0, 508.0)</val>
 </matrix>
 <width>
-<val>116.0</val>
+<val>118.0</val>
 </width>
 <height>
 <val>42.0</val>
@@ -485,7 +485,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 189.0, 518.0)</val>
 </matrix>
 <width>
-<val>116.0</val>
+<val>118.0</val>
 </width>
 <height>
 <val>42.0</val>
@@ -506,7 +506,7 @@
 </reflist>
 </include>
 <name>
-<val>Crear Album</val>
+<val><![CDATA[Crear Album]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -582,7 +582,7 @@
 </Property>
 <Diagram id="0416d4fe-6854-11e0-ac7c-485b39cab3fc">
 <name>
-<val>bloquear_usuario</val>
+<val><![CDATA[bloquear_usuario]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -714,7 +714,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 189.0, 518.0)</val>
 </matrix>
 <width>
-<val>116.0</val>
+<val>118.0</val>
 </width>
 <height>
 <val>42.0</val>
@@ -735,7 +735,7 @@
 </reflist>
 </include>
 <name>
-<val>Bloquear Usuario</val>
+<val><![CDATA[Bloquear Usuario]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -811,7 +811,7 @@
 </Include>
 <Diagram id="8e99a4f8-6854-11e0-83cc-485b39cab3fc">
 <name>
-<val>admin_muro</val>
+<val><![CDATA[admin_muro]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -885,7 +885,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 104.0, 325.0)</val>
 </matrix>
 <width>
-<val>145.0</val>
+<val>147.0</val>
 </width>
 <height>
 <val>30.0</val>
@@ -905,7 +905,7 @@
 <val>0</val>
 </show_stereotypes_attrs>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 180.15107913669064, 325.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 181.20143884892087, 325.0)</val>
 </matrix>
 <orthogonal>
 <val>0</val>
@@ -914,7 +914,7 @@
 <val>0</val>
 </horizontal>
 <points>
-<val>[(0.0, 0.0), (84.84892086330936, -109.0)]</val>
+<val>[(0.0, 0.0), (83.79856115107913, -109.0)]</val>
 </points>
 <head-connection>
 <ref refid="a88c8704-6854-11e0-83cc-485b39cab3fc"/>
@@ -1001,7 +1001,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 301.0, 328.0)</val>
 </matrix>
 <width>
-<val>127.0</val>
+<val>129.0</val>
 </width>
 <height>
 <val>30.0</val>
@@ -1021,7 +1021,7 @@
 <val>0</val>
 </show_stereotypes_attrs>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 332.0, 328.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 332.48818897637796, 328.0)</val>
 </matrix>
 <orthogonal>
 <val>0</val>
@@ -1030,7 +1030,7 @@
 <val>0</val>
 </horizontal>
 <points>
-<val>[(0.0, 0.0), (-28.0, -112.0)]</val>
+<val>[(0.0, 0.0), (-28.488188976377955, -112.0)]</val>
 </points>
 <head-connection>
 <ref refid="cbc8e12c-6854-11e0-83cc-485b39cab3fc"/>
@@ -1044,7 +1044,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 189.0, 518.0)</val>
 </matrix>
 <width>
-<val>116.0</val>
+<val>118.0</val>
 </width>
 <height>
 <val>42.0</val>
@@ -1060,7 +1060,7 @@
 </Diagram>
 <Actor id="970683fe-6854-11e0-83cc-485b39cab3fc">
 <name>
-<val>Sistema</val>
+<val><![CDATA[Sistema]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -1079,7 +1079,7 @@
 </reflist>
 </include>
 <name>
-<val>Administrar Muro</val>
+<val><![CDATA[Administrar Muro]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -1092,7 +1092,7 @@
 </UseCase>
 <UseCase id="a88c7354-6854-11e0-83cc-485b39cab3fc">
 <name>
-<val>Mostrar Notificaciones</val>
+<val><![CDATA[Mostrar Notificaciones]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -1218,7 +1218,7 @@
 </Property>
 <UseCase id="cbc8cd2c-6854-11e0-83cc-485b39cab3fc">
 <name>
-<val>Mostrar Solicitudes</val>
+<val><![CDATA[Mostrar Solicitudes]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -1244,7 +1244,7 @@
 </Include>
 <Diagram id="f69bd004-688f-11e0-9a78-0026ce0a7672">
 <name>
-<val>Control_ingreso</val>
+<val><![CDATA[Control_ingreso]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -1377,23 +1377,6 @@
 <ref refid="ec3e0b74-6a7c-11e0-b23d-485b39cab3fc"/>
 </tail-connection>
 </item>
-<item type="CommentItem" id="a772ad62-6890-11e0-9a78-0026ce0a7672">
-<matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 174.0, 578.0)</val>
-</matrix>
-<width>
-<val>685.0</val>
-</width>
-<height>
-<val>64.0</val>
-</height>
-<subject>
-<ref refid="a772a330-6890-11e0-9a78-0026ce0a7672"/>
-</subject>
-<show_stereotypes_attrs>
-<val>0</val>
-</show_stereotypes_attrs>
-</item>
 <item type="ActorItem" id="a9e995b8-6a7c-11e0-b23d-485b39cab3fc">
 <drawing-style>
 <val>3</val>
@@ -1434,11 +1417,28 @@
 <val>0</val>
 </show_stereotypes_attrs>
 </item>
+<item type="CommentItem" id="d01f5222-6b6c-11e0-b82a-001d9289946c">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 213.0, 532.0)</val>
+</matrix>
+<width>
+<val>142.0</val>
+</width>
+<height>
+<val>42.0</val>
+</height>
+<subject>
+<ref refid="beb6b2be-6b6c-11e0-b82a-001d9289946c"/>
+</subject>
+<show_stereotypes_attrs>
+<val>0</val>
+</show_stereotypes_attrs>
+</item>
 </canvas>
 </Diagram>
 <UseCase id="48dbc694-6890-11e0-9a78-0026ce0a7672">
 <name>
-<val>Ingresar al Sistema</val>
+<val><![CDATA[Ingresar al Sistema]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -1456,7 +1456,7 @@
 </reflist>
 </include>
 <name>
-<val>Controlar ingreso</val>
+<val><![CDATA[Controlar ingreso]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -1467,21 +1467,9 @@
 </reflist>
 </presentation>
 </UseCase>
-<Comment id="a772a330-6890-11e0-9a78-0026ce0a7672">
-<body>
-<val>Detalle 
-Cuando un usuario ingresa al sistema, se produce una verificacion del usuario, a fin de saber si es un usuario registrado o no.
-Si el usuario no esta registrado, no le permite ingresar al sistema. Si efectivamente es un usuario registrado, se le permite ingresar</val>
-</body>
-<presentation>
-<reflist>
-<ref refid="a772ad62-6890-11e0-9a78-0026ce0a7672"/>
-</reflist>
-</presentation>
-</Comment>
 <Diagram id="05bf6978-6891-11e0-9a78-0026ce0a7672">
 <name>
-<val>Baja_Grupo</val>
+<val><![CDATA[Baja_Grupo]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -1495,7 +1483,7 @@ Si el usuario no esta registrado, no le permite ingresar al sistema. Si efectiva
 <val>(1.0, 0.0, 0.0, 1.0, 447.0, 318.0)</val>
 </matrix>
 <width>
-<val>151.0</val>
+<val>153.0</val>
 </width>
 <height>
 <val>66.0</val>
@@ -1515,7 +1503,7 @@ Si el usuario no esta registrado, no le permite ingresar al sistema. Si efectiva
 <val>0</val>
 </show_stereotypes_attrs>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 521.9863945578231, 384.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 522.9795918367347, 384.0)</val>
 </matrix>
 <orthogonal>
 <val>0</val>
@@ -1524,7 +1512,7 @@ Si el usuario no esta registrado, no le permite ingresar al sistema. Si efectiva
 <val>0</val>
 </horizontal>
 <points>
-<val>[(0.0, 0.0), (-61.98639455782313, 86.5)]</val>
+<val>[(0.0, 0.0), (-62.9795918367347, 86.5)]</val>
 </points>
 <head-connection>
 <ref refid="10d6e4d0-6891-11e0-9a78-0026ce0a7672"/>
@@ -1614,23 +1602,6 @@ Si el usuario no esta registrado, no le permite ingresar al sistema. Si efectiva
 <val>0</val>
 </show_stereotypes_attrs>
 </item>
-<item type="CommentItem" id="927c6212-6891-11e0-9a78-0026ce0a7672">
-<matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 160.0, 598.0)</val>
-</matrix>
-<width>
-<val>804.0</val>
-</width>
-<height>
-<val>93.0</val>
-</height>
-<subject>
-<ref refid="927c5844-6891-11e0-9a78-0026ce0a7672"/>
-</subject>
-<show_stereotypes_attrs>
-<val>0</val>
-</show_stereotypes_attrs>
-</item>
 <item type="ActorItem" id="afb6805a-6a7c-11e0-b23d-485b39cab3fc">
 <drawing-style>
 <val>3</val>
@@ -1671,11 +1642,28 @@ Si el usuario no esta registrado, no le permite ingresar al sistema. Si efectiva
 <val>0</val>
 </show_stereotypes_attrs>
 </item>
+<item type="CommentItem" id="cf14a4d6-6b6c-11e0-b82a-001d9289946c">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 213.0, 532.0)</val>
+</matrix>
+<width>
+<val>142.0</val>
+</width>
+<height>
+<val>42.0</val>
+</height>
+<subject>
+<ref refid="beb6b2be-6b6c-11e0-b82a-001d9289946c"/>
+</subject>
+<show_stereotypes_attrs>
+<val>0</val>
+</show_stereotypes_attrs>
+</item>
 </canvas>
 </Diagram>
 <UseCase id="10d6c82e-6891-11e0-9a78-0026ce0a7672">
 <name>
-<val>Bajar Usuario del Grupo</val>
+<val><![CDATA[Bajar Usuario del Grupo]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -1699,21 +1687,9 @@ Si el usuario no esta registrado, no le permite ingresar al sistema. Si efectiva
 </reflist>
 </presentation>
 </Include>
-<Comment id="927c5844-6891-11e0-9a78-0026ce0a7672">
-<body>
-<val>Cuando un usuario, dentro de un grupo, quiere salir del mismo, se realiza una verificacion de usuario, para saber si pertenece al mismo grupo o no.
-Si el usuario pertenece al mismo, se le permite salir del grupo, verificando tambien el rol del usuario dentro del grupo, si es el unico administrador del sistema se
-opta por cerrar el grupo o delegar la responsabilidad. Si el usuario no pertenece al mismo, la opcion de baja de grupo, no esta disponible.</val>
-</body>
-<presentation>
-<reflist>
-<ref refid="927c6212-6891-11e0-9a78-0026ce0a7672"/>
-</reflist>
-</presentation>
-</Comment>
 <Diagram id="38dbf852-6892-11e0-9a78-0026ce0a7672">
 <name>
-<val>Alta_coment_foto</val>
+<val><![CDATA[Alta_coment_foto]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -1815,23 +1791,6 @@ opta por cerrar el grupo o delegar la responsabilidad. Si el usuario no pertenec
 </height>
 <subject>
 <ref refid="96b10684-6892-11e0-9a78-0026ce0a7672"/>
-</subject>
-<show_stereotypes_attrs>
-<val>0</val>
-</show_stereotypes_attrs>
-</item>
-<item type="CommentItem" id="01301202-6893-11e0-9a78-0026ce0a7672">
-<matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 188.0, 558.0)</val>
-</matrix>
-<width>
-<val>722.0</val>
-</width>
-<height>
-<val>107.0</val>
-</height>
-<subject>
-<ref refid="013007da-6893-11e0-9a78-0026ce0a7672"/>
 </subject>
 <show_stereotypes_attrs>
 <val>0</val>
@@ -1949,11 +1908,28 @@ opta por cerrar el grupo o delegar la responsabilidad. Si el usuario no pertenec
 <val>0</val>
 </show_stereotypes_attrs>
 </item>
+<item type="CommentItem" id="beb6bef8-6b6c-11e0-b82a-001d9289946c">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 203.0, 522.0)</val>
+</matrix>
+<width>
+<val>142.0</val>
+</width>
+<height>
+<val>42.0</val>
+</height>
+<subject>
+<ref refid="beb6b2be-6b6c-11e0-b82a-001d9289946c"/>
+</subject>
+<show_stereotypes_attrs>
+<val>0</val>
+</show_stereotypes_attrs>
+</item>
 </canvas>
 </Diagram>
 <UseCase id="510b73c6-6892-11e0-9a78-0026ce0a7672">
 <name>
-<val>Agregar Comentario Foto</val>
+<val><![CDATA[Agregar Comentario Foto]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -1973,16 +1949,16 @@ opta por cerrar el grupo o delegar la responsabilidad. Si el usuario no pertenec
 </reflist>
 </include>
 <name>
-<val>Verificar Usuario</val>
+<val><![CDATA[Verificar Usuario]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
 </package>
 <presentation>
 <reflist>
-<ref refid="96b121f0-6892-11e0-9a78-0026ce0a7672"/>
-<ref refid="e644c0a0-6a7c-11e0-b23d-485b39cab3fc"/>
 <ref refid="ec3e0b74-6a7c-11e0-b23d-485b39cab3fc"/>
+<ref refid="e644c0a0-6a7c-11e0-b23d-485b39cab3fc"/>
+<ref refid="96b121f0-6892-11e0-9a78-0026ce0a7672"/>
 </reflist>
 </presentation>
 </UseCase>
@@ -1999,17 +1975,6 @@ opta por cerrar el grupo o delegar la responsabilidad. Si el usuario no pertenec
 </reflist>
 </presentation>
 </Include>
-<Comment id="013007da-6893-11e0-9a78-0026ce0a7672">
-<body>
-<val>Cuando un usuario quiere agregar un comentario a una foto, se realiza una verificacion de usuario, que incluye una verificacion de amistad con
-el propietario del album, y permisos pertinentes que le permitan acceder al privilegio.</val>
-</body>
-<presentation>
-<reflist>
-<ref refid="01301202-6893-11e0-9a78-0026ce0a7672"/>
-</reflist>
-</presentation>
-</Comment>
 <UseCase id="3e9adeec-6893-11e0-9a78-0026ce0a7672">
 <include>
 <reflist>
@@ -2017,7 +1982,7 @@ el propietario del album, y permisos pertinentes que le permitan acceder al priv
 </reflist>
 </include>
 <name>
-<val>Verificacion de Amistad</val>
+<val><![CDATA[Verificacion de Amistad]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -2048,7 +2013,7 @@ el propietario del album, y permisos pertinentes que le permitan acceder al priv
 </reflist>
 </include>
 <name>
-<val>Permisos del Album</val>
+<val><![CDATA[Permisos del Album]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -2074,7 +2039,7 @@ el propietario del album, y permisos pertinentes que le permitan acceder al priv
 </Include>
 <Diagram id="84998dd0-6893-11e0-9a78-0026ce0a7672">
 <name>
-<val>Amigos_Comun</val>
+<val><![CDATA[Amigos_Comun]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -2227,23 +2192,6 @@ el propietario del album, y permisos pertinentes que le permitan acceder al priv
 <val>0</val>
 </show_stereotypes_attrs>
 </item>
-<item type="CommentItem" id="12680736-6894-11e0-9a78-0026ce0a7672">
-<matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 226.0, 594.0)</val>
-</matrix>
-<width>
-<val>655.0</val>
-</width>
-<height>
-<val>121.0</val>
-</height>
-<subject>
-<ref refid="1267fcaa-6894-11e0-9a78-0026ce0a7672"/>
-</subject>
-<show_stereotypes_attrs>
-<val>0</val>
-</show_stereotypes_attrs>
-</item>
 <item type="ActorItem" id="b97ef9a0-6a7c-11e0-b23d-485b39cab3fc">
 <drawing-style>
 <val>3</val>
@@ -2264,11 +2212,28 @@ el propietario del album, y permisos pertinentes que le permitan acceder al priv
 <val>0</val>
 </show_stereotypes_attrs>
 </item>
+<item type="CommentItem" id="cdac6372-6b6c-11e0-b82a-001d9289946c">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 213.0, 532.0)</val>
+</matrix>
+<width>
+<val>142.0</val>
+</width>
+<height>
+<val>42.0</val>
+</height>
+<subject>
+<ref refid="beb6b2be-6b6c-11e0-b82a-001d9289946c"/>
+</subject>
+<show_stereotypes_attrs>
+<val>0</val>
+</show_stereotypes_attrs>
+</item>
 </canvas>
 </Diagram>
 <UseCase id="9d7185d8-6893-11e0-9a78-0026ce0a7672">
 <name>
-<val>Verificar amigos en comun</val>
+<val><![CDATA[Verificar amigos en comun]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -2286,7 +2251,7 @@ el propietario del album, y permisos pertinentes que le permitan acceder al priv
 </reflist>
 </include>
 <name>
-<val>Verificar amigos Usuario</val>
+<val><![CDATA[Verificar amigos Usuario]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -2317,7 +2282,7 @@ el propietario del album, y permisos pertinentes que le permitan acceder al priv
 </reflist>
 </extend>
 <name>
-<val>Notificar Coincidencias</val>
+<val><![CDATA[Notificar Coincidencias]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -2341,21 +2306,9 @@ el propietario del album, y permisos pertinentes que le permitan acceder al priv
 </reflist>
 </presentation>
 </Extend>
-<Comment id="1267fcaa-6894-11e0-9a78-0026ce0a7672">
-<body>
-<val>Un usuario dentro del sistema tiene una relacion de amigo con otro usuario del sistema. Se verifican los usuarios 
-amigos de cada uno, buscando coincidencias de amigos. Si hay 2 o más amigos en comun, se notifica la coincidencia
-a ambos usuarios.</val>
-</body>
-<presentation>
-<reflist>
-<ref refid="12680736-6894-11e0-9a78-0026ce0a7672"/>
-</reflist>
-</presentation>
-</Comment>
 <Comment id="7d44e744-6a7a-11e0-a7fa-485b39cab3fc">
 <body>
-<val>By Lopez Gabriel</val>
+<val><![CDATA[By Lopez Gabriel]]></val>
 </body>
 <presentation>
 <reflist>
@@ -2574,7 +2527,7 @@ a ambos usuarios.</val>
 </reflist>
 </extend>
 <name>
-<val>Cerrar Grupo</val>
+<val><![CDATA[Cerrar Grupo]]></val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -2624,4 +2577,17 @@ a ambos usuarios.</val>
 </reflist>
 </presentation>
 </Include>
+<Comment id="beb6b2be-6b6c-11e0-b82a-001d9289946c">
+<body>
+<val><![CDATA[by Gargantini Leandro]]></val>
+</body>
+<presentation>
+<reflist>
+<ref refid="beb6bef8-6b6c-11e0-b82a-001d9289946c"/>
+<ref refid="cdac6372-6b6c-11e0-b82a-001d9289946c"/>
+<ref refid="cf14a4d6-6b6c-11e0-b82a-001d9289946c"/>
+<ref refid="d01f5222-6b6c-11e0-b82a-001d9289946c"/>
+</reflist>
+</presentation>
+</Comment>
 </gaphor>
