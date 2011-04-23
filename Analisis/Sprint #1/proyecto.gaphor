@@ -14,7 +14,6 @@
 <ref refid="e00bf5a2-6845-11e0-ac7c-485b39cab3fc"/>
 <ref refid="e1731d6c-6845-11e0-ac7c-485b39cab3fc"/>
 <ref refid="2b1259be-6847-11e0-ac7c-485b39cab3fc"/>
-<ref refid="3fcb451e-6847-11e0-ac7c-485b39cab3fc"/>
 <ref refid="fabf1d22-684d-11e0-ac7c-485b39cab3fc"/>
 <ref refid="67d5604c-684e-11e0-ac7c-485b39cab3fc"/>
 <ref refid="0ce8117e-6854-11e0-ac7c-485b39cab3fc"/>
@@ -156,52 +155,6 @@
 <ref refid="2b128970-6847-11e0-ac7c-485b39cab3fc"/>
 </tail-subject>
 </item>
-<item type="UseCaseItem" id="3fcb5798-6847-11e0-ac7c-485b39cab3fc">
-<drawing-style>
-<val>-1</val>
-</drawing-style>
-<matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 221.5, 292.0)</val>
-</matrix>
-<width>
-<val>132.0</val>
-</width>
-<height>
-<val>62.0</val>
-</height>
-<subject>
-<ref refid="3fcb451e-6847-11e0-ac7c-485b39cab3fc"/>
-</subject>
-<show_stereotypes_attrs>
-<val>0</val>
-</show_stereotypes_attrs>
-</item>
-<item type="IncludeItem" id="59bed436-6847-11e0-ac7c-485b39cab3fc">
-<subject>
-<ref refid="5a788462-6847-11e0-ac7c-485b39cab3fc"/>
-</subject>
-<show_stereotypes_attrs>
-<val>0</val>
-</show_stereotypes_attrs>
-<matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 284.5, 292.0)</val>
-</matrix>
-<orthogonal>
-<val>0</val>
-</orthogonal>
-<horizontal>
-<val>0</val>
-</horizontal>
-<points>
-<val>[(0.0, 0.0), (-4.665048543689295, -68.5)]</val>
-</points>
-<head-connection>
-<ref refid="3fcb5798-6847-11e0-ac7c-485b39cab3fc"/>
-</head-connection>
-<tail-connection>
-<ref refid="e1733c5c-6845-11e0-ac7c-485b39cab3fc"/>
-</tail-connection>
-</item>
 <item type="CommentItem" id="86843cf6-6a7a-11e0-a7fa-485b39cab3fc">
 <matrix>
 <val>(1.0, 0.0, 0.0, 1.0, 189.0, 518.0)</val>
@@ -245,11 +198,6 @@
 </presentation>
 </Actor>
 <UseCase id="e1731d6c-6845-11e0-ac7c-485b39cab3fc">
-<include>
-<reflist>
-<ref refid="5a788462-6847-11e0-ac7c-485b39cab3fc"/>
-</reflist>
-</include>
 <name>
 <val>Buscar Usuario</val>
 </name>
@@ -312,34 +260,6 @@
 <ref refid="e00bf5a2-6845-11e0-ac7c-485b39cab3fc"/>
 </type>
 </Property>
-<UseCase id="3fcb451e-6847-11e0-ac7c-485b39cab3fc">
-<name>
-<val>Chequear conexión</val>
-</name>
-<package>
-<ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
-</package>
-<presentation>
-<reflist>
-<ref refid="3fcb5798-6847-11e0-ac7c-485b39cab3fc"/>
-<ref refid="408f2f18-684e-11e0-ac7c-485b39cab3fc"/>
-<ref refid="1eb94558-6854-11e0-ac7c-485b39cab3fc"/>
-</reflist>
-</presentation>
-</UseCase>
-<Include id="5a788462-6847-11e0-ac7c-485b39cab3fc">
-<addition>
-<ref refid="3fcb451e-6847-11e0-ac7c-485b39cab3fc"/>
-</addition>
-<includingCase>
-<ref refid="e1731d6c-6845-11e0-ac7c-485b39cab3fc"/>
-</includingCase>
-<presentation>
-<reflist>
-<ref refid="59bed436-6847-11e0-ac7c-485b39cab3fc"/>
-</reflist>
-</presentation>
-</Include>
 <Diagram id="f5f1b7c8-684d-11e0-ac7c-485b39cab3fc">
 <name>
 <val>crear_album</val>
@@ -423,35 +343,15 @@
 <ref refid="67d5b06a-684e-11e0-ac7c-485b39cab3fc"/>
 </tail-subject>
 </item>
-<item type="UseCaseItem" id="408f2f18-684e-11e0-ac7c-485b39cab3fc">
-<drawing-style>
-<val>-1</val>
-</drawing-style>
-<matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 302.5, 265.0)</val>
-</matrix>
-<width>
-<val>132.0</val>
-</width>
-<height>
-<val>62.0</val>
-</height>
-<subject>
-<ref refid="3fcb451e-6847-11e0-ac7c-485b39cab3fc"/>
-</subject>
-<show_stereotypes_attrs>
-<val>0</val>
-</show_stereotypes_attrs>
-</item>
 <item type="IncludeItem" id="408f8030-684e-11e0-ac7c-485b39cab3fc">
 <subject>
-<ref refid="446702fa-684e-11e0-ac7c-485b39cab3fc"/>
+<ref refid="63aaeb1e-6dac-11e0-a2ff-485b39cab3fc"/>
 </subject>
 <show_stereotypes_attrs>
 <val>0</val>
 </show_stereotypes_attrs>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 365.5, 265.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 358.0, 316.0)</val>
 </matrix>
 <orthogonal>
 <val>0</val>
@@ -460,10 +360,10 @@
 <val>0</val>
 </horizontal>
 <points>
-<val>[(0.0, 0.0), (-1.5, -69.0)]</val>
+<val>[(0.0, 0.0), (6.0, -120.0)]</val>
 </points>
 <head-connection>
-<ref refid="408f2f18-684e-11e0-ac7c-485b39cab3fc"/>
+<ref refid="610e32ee-6dac-11e0-a2ff-485b39cab3fc"/>
 </head-connection>
 <tail-connection>
 <ref refid="fabf30dc-684d-11e0-ac7c-485b39cab3fc"/>
@@ -506,12 +406,32 @@
 <val>0</val>
 </show_stereotypes_attrs>
 </item>
+<item type="UseCaseItem" id="610e32ee-6dac-11e0-a2ff-485b39cab3fc">
+<drawing-style>
+<val>-1</val>
+</drawing-style>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 297.0, 316.0)</val>
+</matrix>
+<width>
+<val>118.0</val>
+</width>
+<height>
+<val>31.0</val>
+</height>
+<subject>
+<ref refid="815fe212-6b8c-11e0-8374-485b39cab3fc"/>
+</subject>
+<show_stereotypes_attrs>
+<val>0</val>
+</show_stereotypes_attrs>
+</item>
 </canvas>
 </Diagram>
 <UseCase id="fabf1d22-684d-11e0-ac7c-485b39cab3fc">
 <include>
 <reflist>
-<ref refid="446702fa-684e-11e0-ac7c-485b39cab3fc"/>
+<ref refid="63aaeb1e-6dac-11e0-a2ff-485b39cab3fc"/>
 </reflist>
 </include>
 <name>
@@ -526,19 +446,6 @@
 </reflist>
 </presentation>
 </UseCase>
-<Include id="446702fa-684e-11e0-ac7c-485b39cab3fc">
-<addition>
-<ref refid="3fcb451e-6847-11e0-ac7c-485b39cab3fc"/>
-</addition>
-<includingCase>
-<ref refid="fabf1d22-684d-11e0-ac7c-485b39cab3fc"/>
-</includingCase>
-<presentation>
-<reflist>
-<ref refid="408f8030-684e-11e0-ac7c-485b39cab3fc"/>
-</reflist>
-</presentation>
-</Include>
 <Association id="67d5604c-684e-11e0-ac7c-485b39cab3fc">
 <memberEnd>
 <reflist>
@@ -672,52 +579,6 @@
 <ref refid="1b29ad88-6854-11e0-ac7c-485b39cab3fc"/>
 </tail-subject>
 </item>
-<item type="UseCaseItem" id="1eb94558-6854-11e0-ac7c-485b39cab3fc">
-<drawing-style>
-<val>-1</val>
-</drawing-style>
-<matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 295.0, 313.0)</val>
-</matrix>
-<width>
-<val>127.0</val>
-</width>
-<height>
-<val>32.0</val>
-</height>
-<subject>
-<ref refid="3fcb451e-6847-11e0-ac7c-485b39cab3fc"/>
-</subject>
-<show_stereotypes_attrs>
-<val>0</val>
-</show_stereotypes_attrs>
-</item>
-<item type="IncludeItem" id="29e2a4f6-6854-11e0-ac7c-485b39cab3fc">
-<subject>
-<ref refid="2a7a2286-6854-11e0-ac7c-485b39cab3fc"/>
-</subject>
-<show_stereotypes_attrs>
-<val>0</val>
-</show_stereotypes_attrs>
-<matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 361.0, 313.0)</val>
-</matrix>
-<orthogonal>
-<val>0</val>
-</orthogonal>
-<horizontal>
-<val>0</val>
-</horizontal>
-<points>
-<val>[(0.0, 0.0), (7.782608695652186, -98.0)]</val>
-</points>
-<head-connection>
-<ref refid="1eb94558-6854-11e0-ac7c-485b39cab3fc"/>
-</head-connection>
-<tail-connection>
-<ref refid="0ce826f0-6854-11e0-ac7c-485b39cab3fc"/>
-</tail-connection>
-</item>
 <item type="CommentItem" id="87b7bf30-6a7a-11e0-a7fa-485b39cab3fc">
 <matrix>
 <val>(1.0, 0.0, 0.0, 1.0, 189.0, 518.0)</val>
@@ -738,11 +599,6 @@
 </canvas>
 </Diagram>
 <UseCase id="0ce8117e-6854-11e0-ac7c-485b39cab3fc">
-<include>
-<reflist>
-<ref refid="2a7a2286-6854-11e0-ac7c-485b39cab3fc"/>
-</reflist>
-</include>
 <name>
 <val>Bloquear Usuario</val>
 </name>
@@ -805,19 +661,6 @@
 <ref refid="e00bf5a2-6845-11e0-ac7c-485b39cab3fc"/>
 </type>
 </Property>
-<Include id="2a7a2286-6854-11e0-ac7c-485b39cab3fc">
-<addition>
-<ref refid="3fcb451e-6847-11e0-ac7c-485b39cab3fc"/>
-</addition>
-<includingCase>
-<ref refid="0ce8117e-6854-11e0-ac7c-485b39cab3fc"/>
-</includingCase>
-<presentation>
-<reflist>
-<ref refid="29e2a4f6-6854-11e0-ac7c-485b39cab3fc"/>
-</reflist>
-</presentation>
-</Include>
 <Diagram id="8e99a4f8-6854-11e0-83cc-485b39cab3fc">
 <name>
 <val>admin_muro</val>
@@ -3250,6 +3093,7 @@
 <presentation>
 <reflist>
 <ref refid="815ff6bc-6b8c-11e0-8374-485b39cab3fc"/>
+<ref refid="610e32ee-6dac-11e0-a2ff-485b39cab3fc"/>
 </reflist>
 </presentation>
 </UseCase>
@@ -5373,4 +5217,17 @@
 </reflist>
 </presentation>
 </Extend>
+<Include id="63aaeb1e-6dac-11e0-a2ff-485b39cab3fc">
+<addition>
+<ref refid="815fe212-6b8c-11e0-8374-485b39cab3fc"/>
+</addition>
+<includingCase>
+<ref refid="fabf1d22-684d-11e0-ac7c-485b39cab3fc"/>
+</includingCase>
+<presentation>
+<reflist>
+<ref refid="408f8030-684e-11e0-ac7c-485b39cab3fc"/>
+</reflist>
+</presentation>
+</Include>
 </gaphor>
