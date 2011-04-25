@@ -1659,7 +1659,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 786.0, 477.0)</val>
 </matrix>
 <width>
-<val>131.0</val>
+<val>201.0</val>
 </width>
 <height>
 <val>30.0</val>
@@ -1821,7 +1821,7 @@
 </reflist>
 </include>
 <name>
-<val>Permisos del Album</val>
+<val>Verificacion Permisos del Album</val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
