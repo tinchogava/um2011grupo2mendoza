@@ -544,7 +544,7 @@
 </Property>
 <Diagram id="0416d4fe-6854-11e0-ac7c-485b39cab3fc">
 <name>
-<val>bloquear_usuario</val>
+<val>eliminar_amigo</val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -646,7 +646,7 @@
 </Diagram>
 <UseCase id="0ce8117e-6854-11e0-ac7c-485b39cab3fc">
 <name>
-<val>Bloquear Usuario</val>
+<val>Eliminar amigo</val>
 </name>
 <package>
 <ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
@@ -8040,9 +8040,9 @@
 </body>
 <presentation>
 <reflist>
-<ref refid="9a02365a-78c3-11e0-b374-485b39cab3fc"/>
 <ref refid="a8225832-78c3-11e0-b374-485b39cab3fc"/>
 <ref refid="adac6eb4-78c3-11e0-b374-485b39cab3fc"/>
+<ref refid="9a02365a-78c3-11e0-b374-485b39cab3fc"/>
 <ref refid="c96d9010-78c3-11e0-b374-485b39cab3fc"/>
 </reflist>
 </presentation>
