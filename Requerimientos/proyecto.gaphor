@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="0.17.0.dev-20110228">
+<gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="0.17.0.dev-20110417">
 <Package id="5eef4fd0-6842-11e0-ac7c-485b39cab3fc">
 <name>
 <val>umbook</val>
@@ -21,7 +21,6 @@
 <ref refid="1b297502-6854-11e0-ac7c-485b39cab3fc"/>
 <ref refid="970683fe-6854-11e0-83cc-485b39cab3fc"/>
 <ref refid="a0fa2370-6854-11e0-83cc-485b39cab3fc"/>
-<ref refid="a88c7354-6854-11e0-83cc-485b39cab3fc"/>
 <ref refid="b96fc7a2-6854-11e0-83cc-485b39cab3fc"/>
 <ref refid="bb077290-6854-11e0-83cc-485b39cab3fc"/>
 <ref refid="48dbc694-6890-11e0-9a78-0026ce0a7672"/>
@@ -86,6 +85,7 @@
 <ref refid="d06dcf0e-7f41-11e0-a73f-001374005c38"/>
 <ref refid="68663088-7f49-11e0-a73f-001374005c38"/>
 <ref refid="9a071800-7f49-11e0-a73f-001374005c38"/>
+<ref refid="15d53fca-8fa8-11e0-93fa-485b39cab3fc"/>
 </reflist>
 </ownedClassifier>
 <ownedDiagram>
@@ -767,35 +767,15 @@
 <val>0</val>
 </show_stereotypes_attrs>
 </item>
-<item type="UseCaseItem" id="a88c8704-6854-11e0-83cc-485b39cab3fc">
-<drawing-style>
-<val>-1</val>
-</drawing-style>
-<matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 180.0, 339.0)</val>
-</matrix>
-<width>
-<val>147.0</val>
-</width>
-<height>
-<val>30.0</val>
-</height>
-<subject>
-<ref refid="a88c7354-6854-11e0-83cc-485b39cab3fc"/>
-</subject>
-<show_stereotypes_attrs>
-<val>0</val>
-</show_stereotypes_attrs>
-</item>
 <item type="IncludeItem" id="b27fb060-6854-11e0-83cc-485b39cab3fc">
 <subject>
-<ref refid="b2eedfa8-6854-11e0-83cc-485b39cab3fc"/>
+<ref refid="1edd0a1c-8fa8-11e0-93fa-485b39cab3fc"/>
 </subject>
 <show_stereotypes_attrs>
 <val>0</val>
 </show_stereotypes_attrs>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 257.2014388489209, 339.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 227.0, 323.0)</val>
 </matrix>
 <orthogonal>
 <val>0</val>
@@ -804,10 +784,10 @@
 <val>0</val>
 </horizontal>
 <points>
-<val>[(0.0, 0.0), (7.798561151079127, -123.0)]</val>
+<val>[(0.0, 0.0), (38.0, -107.0)]</val>
 </points>
 <head-connection>
-<ref refid="a88c8704-6854-11e0-83cc-485b39cab3fc"/>
+<ref refid="15d5567c-8fa8-11e0-93fa-485b39cab3fc"/>
 </head-connection>
 <tail-connection>
 <ref refid="a0fa3810-6854-11e0-83cc-485b39cab3fc"/>
@@ -900,6 +880,72 @@
 <val>0</val>
 </show_stereotypes_attrs>
 </item>
+<item type="UseCaseItem" id="d7aac95e-8fa7-11e0-93fa-485b39cab3fc">
+<drawing-style>
+<val>-1</val>
+</drawing-style>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 184.5, 56.0)</val>
+</matrix>
+<width>
+<val>172.0</val>
+</width>
+<height>
+<val>31.0</val>
+</height>
+<subject>
+<ref refid="f895836a-7aae-11e0-b1aa-001374005c38"/>
+</subject>
+<show_stereotypes_attrs>
+<val>0</val>
+</show_stereotypes_attrs>
+</item>
+<item type="UseCaseItem" id="15d5567c-8fa8-11e0-93fa-485b39cab3fc">
+<drawing-style>
+<val>-1</val>
+</drawing-style>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 163.0, 323.0)</val>
+</matrix>
+<width>
+<val>139.0</val>
+</width>
+<height>
+<val>31.0</val>
+</height>
+<subject>
+<ref refid="15d53fca-8fa8-11e0-93fa-485b39cab3fc"/>
+</subject>
+<show_stereotypes_attrs>
+<val>0</val>
+</show_stereotypes_attrs>
+</item>
+<item type="ExtendItem" id="22a29fae-8fa8-11e0-93fa-485b39cab3fc">
+<subject>
+<ref refid="23945e66-8fa8-11e0-93fa-485b39cab3fc"/>
+</subject>
+<show_stereotypes_attrs>
+<val>0</val>
+</show_stereotypes_attrs>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 261.0, 186.0)</val>
+</matrix>
+<orthogonal>
+<val>0</val>
+</orthogonal>
+<horizontal>
+<val>0</val>
+</horizontal>
+<points>
+<val>[(0.0, 0.0), (4.0, -99.0)]</val>
+</points>
+<head-connection>
+<ref refid="a0fa3810-6854-11e0-83cc-485b39cab3fc"/>
+</head-connection>
+<tail-connection>
+<ref refid="d7aac95e-8fa7-11e0-93fa-485b39cab3fc"/>
+</tail-connection>
+</item>
 </canvas>
 </Diagram>
 <Actor id="970683fe-6854-11e0-83cc-485b39cab3fc">
@@ -918,7 +964,7 @@
 <UseCase id="a0fa2370-6854-11e0-83cc-485b39cab3fc">
 <include>
 <reflist>
-<ref refid="b2eedfa8-6854-11e0-83cc-485b39cab3fc"/>
+<ref refid="1edd0a1c-8fa8-11e0-93fa-485b39cab3fc"/>
 </reflist>
 </include>
 <name>
@@ -934,32 +980,6 @@
 </reflist>
 </presentation>
 </UseCase>
-<UseCase id="a88c7354-6854-11e0-83cc-485b39cab3fc">
-<name>
-<val>Mostrar Notificaciones</val>
-</name>
-<package>
-<ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
-</package>
-<presentation>
-<reflist>
-<ref refid="a88c8704-6854-11e0-83cc-485b39cab3fc"/>
-</reflist>
-</presentation>
-</UseCase>
-<Include id="b2eedfa8-6854-11e0-83cc-485b39cab3fc">
-<addition>
-<ref refid="a88c7354-6854-11e0-83cc-485b39cab3fc"/>
-</addition>
-<includingCase>
-<ref refid="a0fa2370-6854-11e0-83cc-485b39cab3fc"/>
-</includingCase>
-<presentation>
-<reflist>
-<ref refid="b27fb060-6854-11e0-83cc-485b39cab3fc"/>
-</reflist>
-</presentation>
-</Include>
 <Association id="b96fc7a2-6854-11e0-83cc-485b39cab3fc">
 <memberEnd>
 <reflist>
@@ -5562,7 +5582,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 383.0, 271.0)</val>
 </matrix>
 <width>
-<val>216.0</val>
+<val>219.0</val>
 </width>
 <height>
 <val>31.0</val>
@@ -5628,7 +5648,7 @@
 <val>0</val>
 </show_stereotypes_attrs>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 424.0, 271.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 424.56944444444446, 271.0)</val>
 </matrix>
 <orthogonal>
 <val>0</val>
@@ -5637,7 +5657,7 @@
 <val>0</val>
 </horizontal>
 <points>
-<val>[(0.0, 0.0), (-11.0, -105.0)]</val>
+<val>[(0.0, 0.0), (-11.569444444444457, -105.0)]</val>
 </points>
 <head-connection>
 <ref refid="686704f4-7f49-11e0-a73f-001374005c38"/>
@@ -6024,7 +6044,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 155.0, 272.0)</val>
 </matrix>
 <width>
-<val>231.0</val>
+<val>232.0</val>
 </width>
 <height>
 <val>31.0</val>
@@ -6044,7 +6064,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 338.5, 56.0)</val>
 </matrix>
 <width>
-<val>220.0</val>
+<val>223.0</val>
 </width>
 <height>
 <val>31.0</val>
@@ -6284,7 +6304,7 @@
 <val>0</val>
 </horizontal>
 <points>
-<val>[(0.0, 0.0), (-84.44374323837002, 133.5)]</val>
+<val>[(0.0, 0.0), (-84.13300877509317, 133.5)]</val>
 </points>
 <head-connection>
 <ref refid="390a1e4c-7aaf-11e0-b1aa-001374005c38"/>
@@ -6310,7 +6330,7 @@
 <val>0</val>
 </horizontal>
 <points>
-<val>[(0.0, 0.0), (-276.5357142857142, 103.0)]</val>
+<val>[(0.0, 0.0), (-275.5357142857142, 103.0)]</val>
 </points>
 <head-connection>
 <ref refid="ddfef176-7aae-11e0-b1aa-001374005c38"/>
@@ -6327,7 +6347,7 @@
 <val>0</val>
 </show_stereotypes_attrs>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 433.7755905511811, 87.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 435.0748031496063, 87.0)</val>
 </matrix>
 <orthogonal>
 <val>0</val>
@@ -6336,7 +6356,7 @@
 <val>0</val>
 </horizontal>
 <points>
-<val>[(0.0, 0.0), (-126.08067529694381, 185.0)]</val>
+<val>[(0.0, 0.0), (-126.71887094621644, 185.0)]</val>
 </points>
 <head-connection>
 <ref refid="d3127468-7aae-11e0-b1aa-001374005c38"/>
@@ -6362,7 +6382,7 @@
 <val>0</val>
 </horizontal>
 <points>
-<val>[(0.0, 0.0), (-299.0, -71.06666666666666)]</val>
+<val>[(0.0, 0.0), (-298.0, -71.06666666666666)]</val>
 </points>
 <head-connection>
 <ref refid="e88fa7e8-7aae-11e0-b1aa-001374005c38"/>
@@ -6547,7 +6567,7 @@
 <val>0</val>
 </horizontal>
 <points>
-<val>[(0.0, 0.0), (-233.0, 6.0)]</val>
+<val>[(0.0, 0.0), (-230.0, 6.0)]</val>
 </points>
 <head-connection>
 <ref refid="f895b89e-7aae-11e0-b1aa-001374005c38"/>
@@ -6745,7 +6765,7 @@
 <val>0</val>
 </horizontal>
 <points>
-<val>[(0.0, 0.0), (-110.0, 5.5)]</val>
+<val>[(0.0, 0.0), (-109.0, 5.5)]</val>
 </points>
 <head-connection>
 <ref refid="16c86d54-7daf-11e0-b2b5-70f1a1f231c6"/>
@@ -6965,6 +6985,11 @@
 </presentation>
 </UseCase>
 <UseCase id="f895836a-7aae-11e0-b1aa-001374005c38">
+<extend>
+<reflist>
+<ref refid="23945e66-8fa8-11e0-93fa-485b39cab3fc"/>
+</reflist>
+</extend>
 <include>
 <reflist>
 <ref refid="09815762-7aaf-11e0-b1aa-001374005c38"/>
@@ -6979,6 +7004,7 @@
 <presentation>
 <reflist>
 <ref refid="f895b89e-7aae-11e0-b1aa-001374005c38"/>
+<ref refid="d7aac95e-8fa7-11e0-93fa-485b39cab3fc"/>
 </reflist>
 </presentation>
 </UseCase>
@@ -7695,7 +7721,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 721.5, 175.0)</val>
 </matrix>
 <width>
-<val>107.0</val>
+<val>108.0</val>
 </width>
 <height>
 <val>70.0</val>
@@ -7735,7 +7761,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 280.0, 66.0)</val>
 </matrix>
 <width>
-<val>231.0</val>
+<val>232.0</val>
 </width>
 <height>
 <val>31.0</val>
@@ -7922,7 +7948,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 847.0, 84.0)</val>
 </matrix>
 <width>
-<val>220.0</val>
+<val>223.0</val>
 </width>
 <height>
 <val>31.0</val>
@@ -7942,7 +7968,7 @@
 <val>0</val>
 </show_stereotypes_attrs>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 895.0, 115.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 895.6545454545454, 115.0)</val>
 </matrix>
 <orthogonal>
 <val>0</val>
@@ -7951,7 +7977,7 @@
 <val>0</val>
 </horizontal>
 <points>
-<val>[(0.0, 0.0), (-66.5, 79.0)]</val>
+<val>[(0.0, 0.0), (-66.15454545454543, 79.0)]</val>
 </points>
 <head-connection>
 <ref refid="ba325554-8c50-11e0-839c-70f1a1f231c6"/>
@@ -7980,7 +8006,7 @@
 <val>0</val>
 </horizontal>
 <points>
-<val>[(0.0, 0.0), (33.0, 50.0)]</val>
+<val>[(0.0, 0.0), (33.266355140186874, 50.0)]</val>
 </points>
 <head-connection>
 <ref refid="ac8cca9c-8c50-11e0-839c-70f1a1f231c6"/>
@@ -8566,4 +8592,43 @@
 </reflist>
 </supplier>
 </Dependency>
+<UseCase id="15d53fca-8fa8-11e0-93fa-485b39cab3fc">
+<name>
+<val>Manejar Comentarios</val>
+</name>
+<package>
+<ref refid="5eef4fd0-6842-11e0-ac7c-485b39cab3fc"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="15d5567c-8fa8-11e0-93fa-485b39cab3fc"/>
+</reflist>
+</presentation>
+</UseCase>
+<Include id="1edd0a1c-8fa8-11e0-93fa-485b39cab3fc">
+<addition>
+<ref refid="15d53fca-8fa8-11e0-93fa-485b39cab3fc"/>
+</addition>
+<includingCase>
+<ref refid="a0fa2370-6854-11e0-83cc-485b39cab3fc"/>
+</includingCase>
+<presentation>
+<reflist>
+<ref refid="b27fb060-6854-11e0-83cc-485b39cab3fc"/>
+</reflist>
+</presentation>
+</Include>
+<Extend id="23945e66-8fa8-11e0-93fa-485b39cab3fc">
+<extendedCase>
+<ref refid="a0fa2370-6854-11e0-83cc-485b39cab3fc"/>
+</extendedCase>
+<extension>
+<ref refid="f895836a-7aae-11e0-b1aa-001374005c38"/>
+</extension>
+<presentation>
+<reflist>
+<ref refid="22a29fae-8fa8-11e0-93fa-485b39cab3fc"/>
+</reflist>
+</presentation>
+</Extend>
 </gaphor>
